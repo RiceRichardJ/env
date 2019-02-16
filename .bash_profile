@@ -61,6 +61,10 @@ fi
 ################################################################################
 ## ALIASES
 
+export GREP_OPTIONS='--color=auto'
+export bp='/Users/BlueTyphoid/.bash_profile'
+
+alias path='echo -e ${PATH//:/\\n}'
 alias github='chrome $(git config --get remote.origin.url | sed s/\\.git//)/commits/$(git rev-parse --abbrev-ref HEAD)'
 alias grepless='sh ~/scripts/grepless.sh'
 alias search='sh ~/scripts/search.sh'
@@ -73,8 +77,3 @@ alias chrome='open -a "Google Chrome"'
 alias gmail='open -a "Google Chrome" https://www.gmail.com/'
 alias drive='open -a "Google Chrome" https://drive.google.com/'
 alias maps='open -a "Google Chrome" https://maps.google.com/'
-
-export bp='/Users/BlueTyphoid/.bash_profile'
-
-
-
