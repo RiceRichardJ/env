@@ -2,10 +2,17 @@
 set mouse=a
 set number
 set ruler
+set showmatch
 
 "Coloring"
 syntax on
 colorscheme desert
+
+" move vertically by visual line
+nnoremap j gj
+nnoremap k gk
+nnoremap <Down> g<Down>
+nnoremap <Up> g<Up>
 
 "Set Tab Size"
 set expandtab

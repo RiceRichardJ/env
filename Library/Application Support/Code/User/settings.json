@@ -1,0 +1,52 @@
+{
+    "terminal.integrated.scrollback": 1000000,
+    "window.zoomLevel": -1,
+    "editor.renderWhitespace": "all",
+    "editor.renderIndentGuides": true,
+    "breadcrumbs.enabled": true,
+    "explorer.openEditors.visible": 0,
+    "editor.minimap.enabled": false,
+    "particle.disableWelcomeScreen": true,
+    "editor.insertSpaces": false,
+    "workbench.list.horizontalScrolling": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.rulers": [
+        80, 120
+    ],
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true
+    },
+    "files.associations": {
+        "notes": "markdown",
+        "log":   "markdown"
+    },
+
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground":       "#000",    // Current Line
+
+        "editor.selectionHighlightBackground":  "#00f",    // Single Click & Double Click Match
+        "editor.wordHighlightBackground":       "#00f",    // Single Click (VARIABLES ONLY)
+        "editor.wordHighlightStrongBackground": "#00f",    // Single Click (METHODS ONLY)
+        "editor.hoverHighlightBackground":      "#00f",    // Hover (METHODS & VARIABLES ONLY)
+
+        "editor.findMatchBackground":           "#f00",    // Search (current)
+        "editor.findMatchHighlightBackground":  "#00f",    // Search (all)
+        "editor.rangeHighlightBackground":      "#000"     // Highlight Line during Search
+    },
+
+    "highlight.regexes": {
+        "([^\\x00-\\x7F])": [
+            {
+                "overviewRulerColor": "#ff0000",
+                "backgroundColor": "#ff0000",
+                "color": "#1f1f1f",
+                "fontWeight": "bold"
+            }
+        ]
+    },
+
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.suggestSelection": "first",
+}
