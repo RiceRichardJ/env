@@ -9,6 +9,24 @@
         "command": "workbench.action.previousEditor"
     },
     {
+        "key": "ctrl+=",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "-workbench.action.navigateForward"
+    },
+    {
+        "key": "down",
+        "command": "multiCommand.navigateExplorerDownAndPreviewFile",
+        "when": "filesExplorerFocus"
+    },
+    {
+        "key": "up",
+        "command": "multiCommand.navigateExplorerUpAndPreviewFile",
+        "when": "filesExplorerFocus"
+    }
+    {
         "key": "alt+cmd+v",
         "command": "arduino.verify"
     },
@@ -20,12 +38,12 @@
         "key": "shift+cmd+b",
         "command": "workbench.action.toggleActivityBarVisibility"
     },
-    // {
-    //     "key": "cmd+b",
-    //     "command": "multiCommand.toggleSideAndActivityBar"
-    // },
     {
         "key": "ctrl+shift+`",
         "command": "workbench.action.toggleStatusbarVisibility"
     },
+    // {
+    //     "key": "cmd+b",
+    //     "command": "multiCommand.toggleSideAndActivityBar"
+    // },
 ]
