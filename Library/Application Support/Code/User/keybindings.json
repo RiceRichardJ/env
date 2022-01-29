@@ -25,7 +25,7 @@
         "key": "up",
         "command": "multiCommand.navigateExplorerUpAndPreviewFile",
         "when": "filesExplorerFocus"
-    }
+    },
     {
         "key": "alt+cmd+v",
         "command": "arduino.verify"
